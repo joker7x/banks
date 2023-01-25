@@ -40,8 +40,8 @@ BOT_ID = bot_info.id
 
 # USE YOUR ROTATING PROXY API IN DICT FORMAT http://user:pass@providerhost:port
 proxies = {
-           'http': 'http://qnuomzzl-rotate:4i44gnayqk7c@p.webshare.io:80/',
-           'https': 'http://qnuomzzl-rotate:4i44gnayqk7c@p.webshare.io:80/'
+           'http': 'http://hmplacff-rotate:2gkigrl2t985@p.webshare.io:80/',
+           'https': 'http://hmplacff-rotate:2gkigrl2t985@p.webshare.io:80/'
 }
 
 session = requests.Session()
@@ -94,7 +94,7 @@ async def is_owner(user_id):
 async def helpstr(message: types.Message):
     # await message.answer_chat_action('typing')
     keyboard_markup = types.InlineKeyboardMarkup(row_width=3)
-    btns = types.InlineKeyboardButton("Bot Source", url="https://github.com/xbinner18/Mrbannker")
+    btns = types.InlineKeyboardButton("check this", url="t.me//ioorw")
     keyboard_markup.row(btns)
     FIRST = message.from_user.first_name
     MSG = f'''
